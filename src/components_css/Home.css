@@ -1,0 +1,29 @@
+::selection{
+    background-color: #38B2AC;
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+}
+
+.bgImage{
+    background-image: url("/Home_main_img2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    opacity: 1;
+}
+
+.textSearch{
+    padding-top: 9.5rem;
+}
+
+@media screen and (max-width: 650px) {
+    .searchWidth{
+        width: 60vw !important;
+    }
+}
